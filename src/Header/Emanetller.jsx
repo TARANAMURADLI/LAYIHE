@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Page404 = () => {
+const Emanetller = () => {
   return (
     <div></div>
   )
 }
 
-export default Page404
+export default Emanetller

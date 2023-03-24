@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Page404 = () => {
+const Keşbek = () => {
   return (
     <div></div>
   )
 }
 
-export default Page404
+export default Keşbek
