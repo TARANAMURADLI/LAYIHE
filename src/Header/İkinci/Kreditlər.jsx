@@ -8,7 +8,9 @@ const Kreditlər = () => {
     <p className='kreditsifaris'>Kredit sifarisi üzrə Rabitəbankdan üstünlüklərlə dolu nağd pul krediti təklif olunur. Sərfəli kredit müasir bankçılığın əsaslarından biridir. Rahat şəkildə <br/>
      Rabitəbank vasitəsilə online kredit sifarisi edə bilərsiniz. Eyni zamanda, kampaniya çərçivəsində endirim, komissiyasız kredit fürsətlərimizdən faydalanmağa <br/>tələsin! Kredit kalkulyatoru vasitəsilə kredit ödənişinizi öncədən hesablaya bilər və online kredit sifarisi verə bilərsiniz.</p>
      </div>
-     
+     <div className>
+
+     </div>
      
     
      </div>
