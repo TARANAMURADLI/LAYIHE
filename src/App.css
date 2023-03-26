@@ -196,6 +196,7 @@
     
 }
 
+
  .lupa{
     width:25px;
     background-color:gainsboro;
@@ -208,16 +209,19 @@
      
 } 
 .LUPA{
-    margin-top: -30px;
+    margin-bottom: -1px;
 }
 .onlayn{
     display: flex;
-   justify-content: end;
+   justify-content:flex-end ;
     align-items:center;
-    margin-top:-10px;
+    margin-top:-25em;
     margin-right: 50px;
   
 }
+
+
+
 
 h4{
     background-color: black;
@@ -229,8 +233,9 @@ h4{
 }
 
 .onlaynnovbe{
+    display: flex;
     margin-left: 25px;
-    margin-top: -39px;
+    margin-bottom:10px;
     
 }
 h4:hover{
@@ -252,8 +257,25 @@ h4:hover{
     display: flex;
     justify-content: space-around;
     margin-left:3em;
-   
+      
 }
+.slayd {
+    margin-top: 14em;
+    margin-left: 2em;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    padding:15px;
+   
+
+  }
+  .slayd:hover {
+    
+    transition:0.5s;
+    transition-duration: 0.5ms;
+    transition: linear;
+  }
+    
 
 
 
@@ -647,23 +669,6 @@ transform: scale(1.1);
 
 }
 
-/* .if::before{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    cursor: pointer;
-    background-color: #000;
-    transition: .4s;
-    border-radius: 24px;
-    border: 2px solid transparent;
-    content: "";
-    left: 0.4rem;
-    top: 60%;
-    transform: translateY(-50%);
-    
-} */
-
-
 .noqte{
     cursor: pointer;
     color:white;
@@ -676,7 +681,6 @@ transform: scale(1.1);
     margin-left:1em;
        
 }
-
 
 .butt{
    width:32%;
@@ -1636,18 +1640,65 @@ margin-left:4.5em;
 }
 
 
-/* .Kreditlerhaqq{
-  margin-left: 1em;
-  margin-top: 0 auto;
-  font-size: 30px;
-  font-size: bold;
-  font-weight: 800;
-  color: #000;
-  
+ /* Kreditler */
+.kreditler1{
+    margin-left: 0.2em;
+}
 
+.kreditsifaris{
+ margin-left: 3em;
+ background-color:#f1f4ee; 
+ border-width: 100%;
+ line-height: 4ch;
+ border-radius:20px;
+ padding: 2em;
+ margin:18px;
+ padding-right: 5em;
+ font-size: 20px;
+ color: #888;
+ width: 100%;
+}
+.kredittotal{
+
+
+    /* display: flex; */
+    margin-top:2em;
 }
 
 
-.kreditsifaris{
-    background-color:#f1f4ee ;
-} */
+
+/* Emanetler */
+
+.ddda{
+    margin-top: 6em;
+    margin-left: 5em;
+}
+
+
+/* Kartlar */
+
+.karttotal{
+    margin-top:3.5em;
+}
+
+.kart1{
+    margin-left: 0.2em;
+}
+
+.kartsifaris{
+    margin-left: 3em;
+    background-color:#f1f4ee; 
+    border-width: 100%;
+    line-height: 4ch;
+    border-radius:20px;
+    padding: 2em;
+    margin:18px;
+    padding-right:5em;
+    font-size: 20px;
+    color: #888;
+    width: 100%;
+}
+
+.ferditotal{
+    margin-top:1em;
+}

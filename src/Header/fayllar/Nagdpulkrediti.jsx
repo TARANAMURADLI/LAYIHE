@@ -2,7 +2,9 @@ import React from 'react'
 
 const Nagdpulkrediti = () => {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   )
 }
 

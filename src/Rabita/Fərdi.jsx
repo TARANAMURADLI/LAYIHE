@@ -1,8 +1,16 @@
 import React from 'react'
 
-const Fərdi = () => {
+const Fərdi = props => {
   return (
-    <div></div>
+    <div>
+
+ 
+  </div>
+
+
+
+ 
+    
   )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Əmanətlər = () => {
   return (
-    <div>Əmanətlər</div>
+    <div className='' >
+   <p>ddddasasasas</p>
+    </div>
   )
 }
 

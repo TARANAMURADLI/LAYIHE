@@ -2,7 +2,7 @@ import React from 'react'
 
 const stratejimissiya = () => {
   return (
-    <div>stratejimissiya</div>
+    <div></div>
   )
 }
 
