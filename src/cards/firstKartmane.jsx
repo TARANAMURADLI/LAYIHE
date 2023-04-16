@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Nagdpul = () => {
+const firstKartmane = () => {
   return (
     <div> </div>
   )
 }
 
-export default Nagdpul
+export default firstKartmane

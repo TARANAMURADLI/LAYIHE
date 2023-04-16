@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Head = () => {
+const kartM = () => {
   return (
     <div>
-      <hr/>
      
     </div>
   )
 }
 
-export default Head
+export default kartM

@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Head from "./Header/Head";
 import { Routes, Route, Link, NavLink } from "react-router-dom";
 import UmumiMelumat from "./Header/UmumiMelumat";
 import FilialVebankomatlar from "./Header/FilialVebankomatlar";
@@ -32,16 +31,16 @@ import Kamp from "./Header/Kamp";
 import kompaniya from "./Header/kompaniya";
 import Risklerinidareedilmesi from "./Header/Risklerinidareedilmesi";
 import FAQ from "./Header/FAQ";
-import React from "react";
+import React from "react"
+
 function App() {
   return (
-    <div>
-      <Head />
-
+    <div className="container">
       <div className="nav-bar">
-        <Link className="link" to="/">
-          Ümumi məlumat
+        <Link className="link" to="/UmumiMelumat">
+          Ümumi məlumat{" "}
         </Link>
+
         <Link className="Link" to="/FilialVebankomatlar">
           Filial və bankomatlar
         </Link>
@@ -60,7 +59,9 @@ function App() {
           }
         />
       </div>
-
+   
+  
+    
       <hr />
 
       <div className="img1">
@@ -75,16 +76,17 @@ function App() {
           className="img2"
           src={"https://cdn-icons-png.flaticon.com/128/880/880590.png"}
         />
-        <Link className="class" to="/ferdi">
+        <Link className="classs" to="/ferdi">
           Fərdi
         </Link>
+
         <img
-          className="bag"
+          className="clas"
           src={
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLdlB6-CugrprhPxumbho1LKu0fzmjepZYP6GEZlo7wKd5uNBY8q__zf7RNiZ8T6ZdTjc&usqp=CAU"
           }
         />
-        <Link className="Class" to="/Biznes">
+        <Link className="bag" to="/Biznes">
           Biznes
         </Link>
 
@@ -108,7 +110,7 @@ function App() {
           <span> İnternet Bankçılıq </span>
         </div>
       </div>
-      <hr />
+
       <div className="main">
         <img
           className="KART"
@@ -147,11 +149,8 @@ function App() {
           <h4>Onlayn növbə </h4>
         </div>
       </div>
-      <div className="sehife"></div>
-      
-      
-      
-      <div className="NOV">
+   
+       <div className="NOV">
         <ul className="novler">
           <li className="musteri">Fərdi müştərilər</li>
           <li className="bizn">Biznes müştərilər</li>
@@ -168,7 +167,7 @@ function App() {
             </li>
             <li className="br">
               <br />
-              AZ 1010, 28 May küç. 33
+              AZ 1010, 28 May küç.33
             </li>
             <br />
             <li className="tel">Tel.: (994 12) 598 44 88</li>
@@ -181,6 +180,7 @@ function App() {
           </ul>
         </div>
       </div>
+      <div className="space-bet">
       <div className="moves">
         <Link className="move" to="/">
           Kartmane
@@ -304,15 +304,15 @@ function App() {
           <Route path="FAQ" element={<FAQ />} />
         </Routes>
       </div>
-
-      <div className="sekiller">
+      </div> 
+      {/* <div className="sekiller">
         <img
           className="appstore"
           src="https://www.rabitabank.com/images/svg-icons/apple_1.svg"
         />
         <img
-          className="googlepay"
-          src="https://www.rabitabank.com/images/svg-icons/google.svg"
+          className="googlepay" */}
+      {/* src="https://www.rabitabank.com/images/svg-icons/google.svg"
         />
         <img
           className="appgallery"
@@ -322,8 +322,8 @@ function App() {
           <div className="Z">
             <p className="izleyin">Bizi izləyin</p>
           </div>
-          <div className="FACE">
-            <img
+          <div className="FACE"> */}
+      {/* <img
               className="facebook"
               src="data:image/png;base64,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"
             />
@@ -354,8 +354,8 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div className="merkezibank">
+{/*  */}
+      {/* <div className="merkezibank">
         <p className="ASC">
           Rabitəbank ASC Azərbaycan Mərkəzi Bankın 136 saylı lisenziyası
           <br />
@@ -371,7 +371,8 @@ function App() {
             src="https://www.rabitabank.com/images/maliyye-portali.png"
           />
         </div>
-      </div>
+      </div> */}
+      
     </div>
   );
 }

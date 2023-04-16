@@ -1,71 +1,99 @@
-.nav-bar{
+.container{
+    padding: 0 100px;
+   position: relative;
    width:100%;
+   
+}
+
+.nav-bar{
+    width:100%;
     display: flex;
     padding: 5px; 
 }
 .link{
     text-decoration: none;
     color: gray;
+    margin-bottom: 20px;
     margin-left: 40px;
-    
+    margin-top:5px;
 }
 .Link{
     text-decoration: none;
     color: gray;
    margin-bottom: 20px;
-   padding-left:60px;
+   margin-left:40px;
+   margin-top:5px;
 }
 
 .moon{
     width:29px;
     cursor:pointer;
     border-radius: 20px;
-    margin-top:-8px;
-    margin-right:50px;
+    margin-top:-9px;
+    margin-right:80px;
     object-fit: contain;
+ 
+    
 }
 .right{
     display: flex;
    flex-direction:row-reverse;
    margin-top:-50px;
-   padding-right:50px;
+   margin-right:150px;
   
 }
 
 .img1{
-    width:220px;
-    margin-left:30px ;
+    width:190px;
+    margin-left:15px ;
+    margin-top: 25px;
 }
 .img2{
     background-color: gainsboro;
-    width: 16px;
-    border-radius: 3px;
+    width: 14.5px;
+    height: 28px;
+    border-radius: 4px;
+    margin-bottom:-8px;
+    font-weight: 600; 
+    padding-left: 6px;
     
-   
 }
-
-
 
 .bag{
-    width: 16px;
+    width: 45px;
     
+    padding-left:0.5px;
+    font-size: large;
+    text-decoration: none;
+    color:black;
 }
+ 
+.clas{
+
+    width:18px;
+    padding: 0.5px;
+    border-radius: 3px;
+    margin-right:7px;
+  
+ 
+} 
 
 .ferdi{
-    display: flex;
-   justify-content: center;
-   margin-top:-40px;
-   margin-right:50px ;
-
+     /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-left:15em;
+    margin-top:-2em;
+    padding-left: 6px;
+    padding-bottom: 10px;    
 }
 .phone{
    width:18px;
    height:17px;
-  align-items: center;
-  /* margin-left: 10px; */
-  font-weight:bold;
-  /* border-radius: 20px; */
-  font-size: large;
+   align-items: center;
+   font-weight:bold;
+   font-size: large;
 
    
 }
@@ -78,20 +106,18 @@
     height: 40px;
     background-color: gainsboro;
     font-weight:bold;
-    margin-left: auto; 
-    margin-top:-30px;
-    margin-right:-30px; 
+    font-size: 1rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px; 
-     
-  }  
+    position: absolute;
+    top:35px;
+    left:890px;
+}
 
   p{
-    
-    margin-left:-10px;
-    
+    margin-left:-10px; 
   }
    
   span{
@@ -104,23 +130,33 @@
     width: 150px;
 
    }
+   span:hover{
+    background-color: #60A02A;
+   }
   .internet{
     display: flex;
-    justify-content: end;
-    margin-top:-30px;
-    margin-left:50px;
-    
+    justify-content:space-evenly;
+    left:980px;
+    top:30px;
+    position: absolute;
    
    
   }
   .umumi{
-    display: flex;
-    margin-right:50px;
-    margin-left: 50px;  
-    
+    display: flex;  
+    justify-content:flex-end;
+    align-items: center;
+    width:100px;
+    height: 100px;
+    top:33px;
+    left:600px;  
+    /* left:150px; */
+    /* right: 70px;  */
+    position: absolute;
+   
   }
  
-.class{
+.classs{
     text-decoration: none;
     color:black;
     background-color: gainsboro;
@@ -131,12 +167,7 @@
   
     
 }
-.Class{
-    text-decoration: none;
-    color:black;
-    padding: 5px;
-    margin-right:50px ;
-}
+
 
 .Filial{
    margin:23px auto;
@@ -145,27 +176,29 @@
 .HISSE{
     text-decoration: none;
     color:black;
-    margin-left: 40px;
+    margin-right:20px;
     font-size: 18px;
+    font-weight: 600;
+      
 }
 
 .HISSE1{
     text-decoration: none;
     color:black;
-    margin-left: 40px;
+    margin-left: 50px;
     flex-direction: column-reverse;
     align-items: center;
     font-size: 18px;
+    font-weight: 600;
     
     
 }
 .KART{
     display: flex;
-    margin-left:120px;
+    margin-left:140px;
     margin-bottom: -18px;
-    /* margin-top:20px; */
-    /* width:20px; */
-    object-fit: contain;
+    object-fit:contain;
+   
  
 
 }
@@ -174,68 +207,67 @@
     text-decoration: none;
     color:black;
     margin-left: 50px;
+    font-weight: 600;
 }
 .HISSE3{
     text-decoration: none;
     color:black;
     margin-left:30px;
+    font-weight: 600;
 }
 .HISSE4{
     text-decoration: none;
     color:black;
     margin-left:30px;
+    top:50px;
     background-color:gainsboro;
-    border-radius:50px;
-    padding-left:8px;
-    padding-right:8px;
-    padding-top:2px;
-    padding-bottom:8px;
-    font-weight: 700 ;
+    border-radius:30px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-top:-0.7px;
+    padding-bottom:9px;
+    font-weight: 600 ;
+   
+
+ 
 }
 
 .main{
     margin-top: 40px;
     font-weight: 500;
     font-size: large;
-    
+    position: absolute;
+    top:160px;
+    left:90px; 
 }
-
-
  .lupa{
     width:25px;
     background-color:gainsboro;
     border-radius:50px;
     padding-left:8px;
     padding-right:8px;
-    padding-top:5px;
+    padding-top:9px;
     padding-bottom:8px;
-    /* margin-top: -35px; */
+    margin-left: 570px;
      
 } 
-.LUPA{
-    margin-bottom: -1px;
-}
+
 .onlayn{
-    display: flex;
+    display:flex;
    justify-content:flex-end ;
     align-items:center;
-    margin-top:-25em;
-    margin-right: 50px;
-  
+    position: absolute;
+    top:157px;
+    left:990px;
+
 }
-
-
-
-
 h4{
     background-color: black;
     border-radius: 10px;
     color: white;
     padding: 10px;
-    border: 1px solid black;
-    
+    border: 1px solid black;  
 }
-
 .onlaynnovbe{
     display: flex;
     margin-left: 25px;
@@ -245,49 +277,56 @@ h4{
 h4:hover{
     background-color:white;
     color:black;
-  transition-duration: 0.5s;
+   transition-duration: 0.5s;
    
 }
-       
+      
 .only{
-   margin-left: 6.5em;
-   margin-top: 5em;
-     
+    margin-left:7px;
+    margin-top: 5px;
+    font-size: larger;
+
 }
 
 
 .second{
-   
     display: flex;
     justify-content: space-around;
-    margin-left:3em;
-      
+    margin-left: -87px;
+   
 }
-.slayd {
-    margin-top: 14em;
-    margin-left: 2em;
+.image1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 130px;  
+    
+}
+
+.slayd{
+    margin-top: 100px;
+    margin-left:-70px;
     display: flex;
     justify-content:space-evenly;
-    flex-direction: column;
-    padding:15px;
-   
-
-  }
-  .slayd:hover {
+    flex-direction: column; 
+     animation-duration: 1.5s;
+     position: relative;
+     width: 1500px;
     
-    transition:0.5s;
-    transition-duration: 0.5ms;
-    transition: linear;
-  }
-    
+}
 
+ .slayd:hover{
+  /* transition-delay:unset;  */
+/* animation-delay: 0.8s; */
+
+-o-animation-timing-function:ease-in-out;
+} 
 
 
 .photo{
-   width:25%;
+    width:25%;
    object-fit:contain;
-   margin-top: -6em;
-   margin-right:15em;
+   margin-top:-8em;
+   margin-right:5em;
 }
 .button5{
     border-radius: 10px;
@@ -296,90 +335,92 @@ h4:hover{
     border: 1px solid #80b554;
     color: white;
     font-size: bold;
-    margin-top:-40em; 
-    margin-left:8em;
-    
+    position: absolute;
+    top: 220px;
+    left:200px auto;
    
 }
 .pul{
-    margin-left: 7em;
-    margin-top: 5em;
+    margin-left:18px;
+    margin-top: 5px;
+    font-size: larger;
 }
 
 .pulkrediti{
     display: flex;
     justify-content: space-around;
-    margin-left: 4em;
+    margin-left: 9em;
 }
 .color{
     color:grey;
-    margin-left:3px;
+    margin-left:4px;
+    line-height: 5px;
 }
 .photo1{
-   width:28%;
-   object-fit:contain;
-   margin-top: -7em;
-   margin-right:8em;
+    width:28%;
+    object-fit:contain;
+    margin-top:-8em;
+    margin-right:12em;
 }
 .mebleg p{
 color: grey;
 font-size: small;
-margin-left:-15.5em;
+margin-left:-19.2em;
 }
 .mebleg h3{
- margin-top:-6px;
- margin-left:-11em;
+ margin-top:-7px;
+ margin-left:-11.1em;
 }
 .Faiz p{
 color: grey;
 font-size: small;
-margin-left:-25em;
+margin-left:-14em;
 }
 .Faiz h3{
     margin-top:-6px;
-    margin-left:-17.4em;
+    margin-left:-8em;
 }
 .Muddet p{
     color: grey;
     font-size: small;
-    margin-left:-33em;
+    margin-left:-10em;
 }
 .Muddet h3{
     margin-top:-0.4em;
-    margin-left:-23em;
+    margin-left:-6em;
 }
 .naglasdirilma p{
     color: grey;
     font-size: small;
-    margin-left:-7em;
+    margin-left:-2em;
 }
 .naglasdirilma h3{
     margin-top:-6px;
-    margin-left:-4.7em;
+    margin-left:-1em;
     font-size:0.5cm;
     font-weight:800 bold;
 }
 .Guzest p{
     color: grey;
     font-size: small;
-    margin-left:-17em;
+    margin-left:-11em;
 }
 .Guzest h3{
     margin-top:-6px;
-    margin-left: -11.5em;
+    margin-left: -7.5em;
     font-weight:800 bold;
     
 }
 .limit p{
     color: grey;
     font-size: small;
-    margin-left:-25em;
+    margin-left:-15em;
 }
 .limit h3{
     margin-top:-6px;
     margin-left: -6px;
     font-weight:800 bold;
-    margin-left: -17.5em;
+    margin-left: -10.5em;
 }
 .button2{
     border-radius: 10px;
@@ -388,39 +429,53 @@ margin-left:-25em;
     border: 1px solid #80b554;
     color: white;
     font-size: bold;
-    margin-left:-0.1em;
-    margin-top:-6em;
+    position: absolute;
+    top: 235px;
+    left:150px auto;
 }
  
  .image1{
-    display: flex;
+    display:flex;
     justify-content:space-evenly;
-    flex-direction: column;
-    padding:15px;
-    position: relative;
-    transition:0.5s;
+    flex-direction: column; 
+
+   
 } 
 
 .image2{
-    display: flex;
+     display: flex;
     justify-content:space-evenly;
     flex-direction: column;
-    padding: 15px;
-    transition:0.5s;
-}
-.suretlikecidler{
+    margin-left: 130px;  
+
+} 
+    .image1:hover{
+    -webkit-transform:translateX(100%);
+    transform: translateX(100%) ;
+    transition: 5s;
+    
+
+}  
+
+ .image2:hover{
+    -webkit-transform:translateX(100%);
+    transform: translateX(100%) ;
+    transition: 5s;
+   
+}   
+.SuretliKecidler{
  font-size: 32px;
  font-weight: 700;
  color: #3a3a3a;
- margin-left:1.6em;
- margin-top:3.5em;
+ margin-left:-24em;
+ margin-top:2em;
 
 } 
    
 .his1{
  text-decoration: none;
  text-align: center;
- margin-left:-30em;
+ margin-left:-40em;
  height:10em;
  border-radius: 24px;
  background-color: #f1f4ee;
@@ -441,7 +496,6 @@ margin-left:-25em;
   margin-left:-10em;
   object-fit: contain;
   height: auto;
- /* transition: 0.2ms; */
 
 }
 .his2{
@@ -478,10 +532,7 @@ margin-left:-25em;
      min-height: 9rem;
     -webkit-font-smoothing: subpixel-antialiased;
      font-size: 20px;
-     font-weight:bold;
-   
-     
-     
+     font-weight:bold;  
 
 }
 .kr2{
@@ -595,11 +646,11 @@ transform: scale(1.1);
 
 .mobilsekil{
  width: 190px;
- margin-left:9.5em;
+ margin-left:0.5em;
  margin-top:3em;
 }
 .mob{
-    margin-left: 3em;
+    margin-right:10em;
     margin-top:3em;
     font-family: Gilroy,sans-serif;
     font-weight: 700;
@@ -607,7 +658,7 @@ transform: scale(1.1);
     color: #000;
 }
 .xidmet{
-    margin-left:6.5em;
+    margin-left:0.2em;
     margin-top:1em;
     font-size:24px;
     line-height:0.9;
@@ -633,8 +684,9 @@ transform: scale(1.1);
     justify-content: space-between;
     align-items: center;
     margin-top: -9em;
-    margin-left:15em;
+    margin-left:10em;
     font-size:50px;
+    object-fit: contain;
 }
 .valyutabutton{
     display: flex;
@@ -647,12 +699,12 @@ transform: scale(1.1);
     margin-top:2em;
 }
 .nagdss{
-    margin-left:10em;
-    margin-top:4.5em;
+    margin-left:8em;
+    margin-top:2em;
 }
 .nagdd{
     margin-left:1em;
-    margin-top:4.5em;
+    margin-top:2em;
 }
 .if{
     display:flex;
@@ -664,12 +716,12 @@ transform: scale(1.1);
     width:35px;
     height:20px;
     margin-left:0.3em;
-    margin-top:1.2em;
+    margin-top:0.5em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius:20px;
     border-bottom-right-radius:20px;  
-    position: relative;
+    
 
 }
 
@@ -687,44 +739,56 @@ transform: scale(1.1);
 }
 
 .butt{
-   width:32%;
-   /* margin-left:7em;
-   margin-top: 5em;
+   /* width:34%; */
+   margin-top: 90px;
+   padding-left: 1.5em;
+   padding-right:1.5em ;
    background-color:#f1f4ee ;
    border-radius:30px;
-   background-color:#f1f4ee ;
-   border-radius:30px; */
- 
-   margin-left:7em;
-   margin-top: 5em;
-   padding-top: 1.1em;
-   padding-bottom:1.4em;
-   background-color:#f1f4ee ;
-   border-radius:30px;
-
+   padding-top:0.1px;
    
+    
 }
 
+.butt1{
+    display: flex;
+    justify-content: space-between;
+    position: absolute; 
+    top:120;
+    left:150px;
+   
+  
+}
 
+.valyuta1111{
+    margin-left:1.5em;
+  
+}
 .val{
   list-style: none;
   color: #3a3a3a;
-  
+  margin-right:2em;
+
+
 }
 .vall{
     list-style: none;
-   color: #3a3a3a;
-   margin-left: 2em;
+    color: #3a3a3a;
+   
+  
+   
 }
 .valll{
     list-style: none;
     color: #3a3a3a;
-    margin-left: 2em;
+    margin-right:2em;
+    
 }
 .vallll{
     list-style: none;
     color: #3a3a3a;
-    margin-left: 2em;  
+    margin-right:2em;
+
 }
 
 .val1{
@@ -733,19 +797,19 @@ transform: scale(1.1);
 }
 .val2{
     margin-top:1em;
-    margin-left: 3em;
-    
+   
+    margin-left:1.7em;
 }
 .val3{
     margin-top:1em;
-    margin-left:3em;
+    margin-left:1.7em;
 }
 .val4{
     margin-top:1em;
-    margin-left:3em;
+    margin-left:2em;
 }
 .Kurstarixi{
-    margin-left:-2.8em;
+    margin-left:2em;
     color: #3a3a3a;
 }
 .Conve{
@@ -753,7 +817,7 @@ transform: scale(1.1);
     color: white;
     background: #80b554;
     border-radius: 15px;
-    margin-left:-1em;
+    margin-left:1em;
 
 }
 
@@ -770,14 +834,14 @@ transform: scale(1.1);
 }
 
 .KR1{
-    margin-left:2.5em;
-    margin-top:2em;
+    margin-left:0.2em;
+    margin-top:-1em;
    
 }
 
 
 .kreditmebleg{
-    margin-left:3em;
+    margin-left:0.5em;
     margin-top: 2.5em;
     color: #3a3a3a;
 }
@@ -787,8 +851,8 @@ transform: scale(1.1);
     background-color: white;
     color: #000;
     font-size:27px;
-    margin-left:1.5em;
-    margin-top:-1em;
+    margin-left:0.2em;
+    margin-top:-0.5em;
     word-spacing: 26ch;
     padding: 16px 16px;
     border-bottom:5px solid #80b554;
@@ -811,13 +875,17 @@ align-items: center;
 .kreditka{
     background-color:#f1f4ee ;
     border-radius:30px;
-    width:40%;
+     /* width:40%; */
    
-    margin-left:7em;
-    margin-top: 5em;
-    padding-top:3em;
-    padding-bottom:3em;
-    background-color:#f1f4ee ;
+    /* margin-left:7em;
+    margin-top: 5em; */
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left: 3em;
+    padding-right:3em ;
+    margin-top:5em;
+    
+
     
 }
 
@@ -825,26 +893,29 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left:20em ;
-    margin-top:-33.5em;
-  
-    
+    margin-left: 5em;
+    margin-right:5em ;
+ 
+ 
 }
 
 
 .sozbirlesmeleri{
     display:flex;
-    justify-content: space-evenly;
-    margin-left:-11em ;
+    justify-content: space-around;
+    margin-left:-7.4em ;
     margin-top: -1em;
+  
    
 }
+
+
 
 .buttonlar{
   display: flex;
   justify-content:space-evenly;
-  margin-left:17em ;
-  margin-top:-0.3em;
+  margin-left:16.5em ;
+  margin-top:0.1em;
   
   
 
@@ -856,7 +927,7 @@ align-items: center;
     background-color: white;
     color:#3a3a3a;
     font-size:11px;
-    margin-left:-31em;
+    margin-left:-28em;
     margin-top: -1em;
     word-spacing: 26ch;
     padding: 14px 16px;
@@ -886,7 +957,7 @@ align-items: center;
     background-color: white;
     color:#3a3a3a;
     font-size:11px;
-    margin-left:-2em;
+    margin-left:10em;
     margin-top: -1em;
     word-spacing: 26ch;
     padding: 14px 16px;
@@ -928,13 +999,13 @@ align-items: center;
     background-color: #80b554;
     border-radius:10px;
     padding:13px ;
-   margin-top: -2.5em;
-   margin-left:10em;
+    margin-top: -2.5em;
+    margin-left:24em;
 }
 .emekk{
     display: flex;
     align-items: center;
-    margin-left:7em;
+    margin-left:5em;
     margin-top:1em;
     
 }
@@ -953,17 +1024,18 @@ align-items: center;
 }
 
 .total{
-    margin-top: 5.5em;
-    margin-bottom:0.1em;
-    margin-left:5em;
+    width:78%;
     padding-bottom:-0.5em;
-    width:75%;
     display :flex;
     justify-content: space-evenly;
     align-items: center;
     background: linear-gradient(232.01deg, #8AC659 26.51%, #60A02A 71.93%);
     border-radius: 32px;
-    
+    right:22em;
+    margin-top:270px;
+    /* top:0;
+    left:0; */
+    position: absolute;
 }
 
 .ucnoqte{
@@ -987,12 +1059,14 @@ align-items: center;
 .rabbot{
     font-family: Gilroy,sans-serif;
     font-weight: 700;
-   margin-top: -0.5em;
-   font-size: 2rem;
+    margin-top: -0.5em;
+    margin-left:-1em;
+    font-size: 2rem;
     color: #fff;
 }
 .BBOT{
     margin: 0;
+    margin-left:-1.2em;
     color: #fff;
     line-height:30px;
     font-size: 1.5rem;
@@ -1116,104 +1190,129 @@ margin-left:4.5em;
     padding-right:5em;
 
 }
-
+/* .sehife{
+    position: relative;
+} */
 .novler{
     display: flex;
-   justify-content:space-around;
-   list-style: none;
-    margin:18em ;
-    margin-left:2.5em;
-/* margin-bottom: 1em; */
+    justify-content:space-between;
+    list-style: none;
+    margin:18em;
+    margin-left:-7em;
+    
+ 
+    
    
 }
 
 .NOV{
-    margin-left:-7em;
-    width:95%;
-    
+
+  
+    justify-content: end;
+    top:650px;
+    left:0;
+    width:76%; 
+  
     
 }
 
 .moves{
-    width:90%;
+    width:80%;
     display: flex;
     justify-content: space-evenly;
-    margin-left:-11.5em;
-    margin-top:-12em;
+    margin-left:-12em;
+    margin-top:-28.5em;
     margin-bottom: -1em;
-    
-    
+     
     
 }
 .resurslar{
-    margin-right:20em;
-    
+    margin-left:150px;
+   
+   
 }
 
 .bankhaqqinda{
- margin-left:-0.5em;
+ margin-left:102px;
+
 }
 .diger{
-    margin-left:0.5em;
+   margin-left:150px;
+    
+    
 }
 .musteri{
-    margin-left:2em;
+    margin-left:140px;
+    
 }
 .bizn{
-    margin-left:-0.5em; 
+    margin-left:100px; 
+   
 }
+
+
 .move{
     color:#888;
     text-decoration: none;
-    margin-left:11.5em;
-   
+    margin-left:84px;
+    margin-top:840px;
+ 
+  
 }
 .move:hover{
     color:#000;
     transition: 3s;
     font-weight: 800;
-    
+   
 }
 
 .move1{
     color:#888;
     text-decoration: none;
-    margin-left:7.8em;
+    margin-left:-17px;
+    margin-top:840px;
+ 
 }
 .move1:hover{
     color:#000;
     transition: 3s;
     font-weight: 800;
+    
   
 }
 
 .move2{
     color:#888;
     text-decoration: none;
-    margin-left:8em;
+    margin-left:-15px;
+    margin-top:840px;
+    
 }
 .move2:hover{
     color:#000;
     transition: 3s;
     font-weight: 800;
-   
+    
 }
 .move3{
     color:#888;
     text-decoration: none;
-    margin-left:5em;
+    margin-left:-27px;
+    margin-top:840px;
+    
 }
 .move3:hover{
     color:#000;
     transition: 3s;
     font-weight: 800;
-    
+  
 }
 
 .move4{
     color:#888;
     text-decoration: none;
-    margin-right:7.5em;
+    margin-left:-110px;
+    margin-top:840px;
 
 }
 
@@ -1222,7 +1321,7 @@ margin-left:4.5em;
     color:#000;
     transition: 3s;
     font-weight: 800;  
-
+   
 
 }
 .vakansiya{
@@ -1232,7 +1331,7 @@ margin-left:4.5em;
 .move5{
     color:#888;
     text-decoration: none;
-    margin-left:6em;
+    margin-left:4.2em;
   
 }
 
@@ -1246,7 +1345,7 @@ margin-left:4.5em;
 .move6{
     color:#888;
     text-decoration: none;
-    margin-left: 14.5em;
+    margin-left: 10.2em;
    
 }
 
@@ -1261,7 +1360,7 @@ margin-left:4.5em;
 .move7{
     color:#888;
     text-decoration: none;
-    margin-left: 14.7em;
+    margin-left: 10.5em;
    
 }
 
@@ -1275,7 +1374,7 @@ margin-left:4.5em;
 .move8{
     color:#888;
     text-decoration: none;
-    margin-left: 9em;
+    margin-left: 6.3em;
     
 }
 
@@ -1289,7 +1388,7 @@ margin-left:4.5em;
 .move9{
     color:#888;
     text-decoration: none;
-    margin-left: 9em;
+    margin-left: 6.6em;
     
 }
 
@@ -1301,13 +1400,13 @@ margin-left:4.5em;
 }
 
 .emanat{
-    margin-top:2em;  
+    margin-top:1em;  
 }
 
 .move10{
     color:#888;
     text-decoration: none;
-    margin-left:6em;
+    margin-left:4em;
 }
 .move10:hover{
     color:#000;
@@ -1318,7 +1417,7 @@ margin-left:4.5em;
 .move11{
     color:#888;
     text-decoration: none;
-    margin-left:13.7em;
+    margin-left:9.5em;
 }
 .move11:hover{
     color:#000;
@@ -1329,7 +1428,7 @@ margin-left:4.5em;
 .move12{
     color:#888;
     text-decoration: none;
-    margin-left:13.1em;
+    margin-left:9em;
 }
 .move12:hover{
     color:#000;
@@ -1340,7 +1439,7 @@ margin-left:4.5em;
 .move13{
     color:#888;
     text-decoration: none;
-    margin-left:15em;
+    margin-left:12.1em;
 }
 .move13:hover{
     color:#000;
@@ -1352,7 +1451,7 @@ margin-left:4.5em;
 .move14{
     color:#888;
     text-decoration: none;
-    margin-left:6em;
+    margin-left:4em;
 }
 .move14:hover{
     color:#000;
@@ -1363,7 +1462,7 @@ margin-left:4.5em;
 .move15{
     color:#888;
     text-decoration: none;
-    margin-left:11em;
+    margin-left:6.5em;
 }
 .move15:hover{
     color:#000;
@@ -1375,7 +1474,7 @@ margin-left:4.5em;
 .move16{
     color:#888;
     text-decoration: none;
-    margin-left:12.1em;
+    margin-left:8.2em;
 }
 .move16:hover{
     color:#000;
@@ -1387,7 +1486,7 @@ margin-left:4.5em;
 .move17{
     color:#888;
     text-decoration: none;
-    margin-left:11em;
+    margin-left:8.5em;
 }
 .move17:hover{
     color:#000;
@@ -1396,13 +1495,13 @@ margin-left:4.5em;
   
 }
 .banklararasi{
-    margin-top:2em; 
+    margin-top:1em; 
 }
 
 .move18{
     color:#888;
     text-decoration: none;
-    margin-left:6em;
+    margin-left:4em;
 }
 .move18:hover{
     color:#000;
@@ -1414,7 +1513,7 @@ margin-left:4.5em;
 .move19{
     color:#888;
     text-decoration: none;
-    margin-left:12.5em;
+    margin-left:8.2em;
 }
 .move19:hover{
     color:#000;
@@ -1426,7 +1525,7 @@ margin-left:4.5em;
 .move20{
     color:#888;
     text-decoration: none;
-    margin-left:13em;
+    margin-left:8.7em;
 }
 .move20:hover{
     color:#000;
@@ -1438,7 +1537,7 @@ margin-left:4.5em;
 .move21{
     color:#888;
     text-decoration: none;
-    margin-left:9em;
+    margin-left:7em;
 }
 .move21:hover{
     color:#000;
@@ -1448,36 +1547,28 @@ margin-left:4.5em;
 }
 
 .kamp{
-  margin-top:2em; 
+  margin-top:1em; 
 }
 
 .AA{
   display: flex;
-  justify-content: flex-end;
-  /* margin-right: 10em; */
+  position:absolute;
+  top:-90%;
+  left:85%;
   
 
   
 }
 
 .AZZZ{
-    list-style: none;
-    margin-right: 15em;
+    list-style: none; 
 }
 
-.ofis{
-    margin-top: -6em;
-    margin-left: -10em;
-    /* margin-right: -10em; */
-}
-
-.BN{
-    margin-left: -10em; 
-    
-}
+ 
+/* 
 
 .br{
-    margin-left: -10em; 
+    margin-left: -7em; 
 }
 
 .tel{
@@ -1491,17 +1582,20 @@ margin-left:4.5em;
 }
 .com{
     margin-left: -10em; 
-}
+} */
 .sekiller{
-    width:70%;
+    width:67%;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 12px;
     background-color: #f1f4ee;
-    margin-top: 4em;
-    margin-left: 5em;
+    /* margin-top: 4em;
+    margin-left: 5em; */
     padding: 2em;
+    position:absolute;
+    top:3072px;
+    left:130px;
 }
 
 .facebook{
@@ -1575,22 +1669,23 @@ margin-left:4.5em;
     
     margin-left: 1em; 
     font-size: large; 
+    color: #888;
 }
 
 .appstore{
     width:14%;
-    margin-left: -8em;
+    margin-left: -7em;
     padding: 0.5em;
 }
 
 .googlepay{
     width:14%;
-    margin-left: -8em;
+    margin-left: -6em;
     padding: 0.5em;
 }
 .appgallery{
     width:14%;
-    margin-left: -8em;
+    margin-left: -6em;
     padding: 0.5em;
 }
 
@@ -1598,10 +1693,10 @@ margin-left:4.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3em;
+    margin-top: 330px;
 }
 .ASC{
-    margin-left: 5em;
+    margin-left: 3em;
     color:#888;
     font-family: Gilroy,sans-serif;
     font-weight: 400;
@@ -1614,12 +1709,12 @@ margin-left:4.5em;
 }
 
 .infobank{
-    padding-right: 7em;
+    padding-right: 6em;
 
 
 }
 .maliyya{
-    padding-right: 7em;
+    padding-right: 1em;
 }
 
 .Z{
@@ -1647,37 +1742,1152 @@ margin-left:4.5em;
 
 
  /* Kreditler */
-.kreditler1{
-    margin-left: 0.2em;
+
+.container1{
+    padding: 0 80px;
 }
 
-.kreditsifaris{
- margin-left: 3em;
- background-color:#f1f4ee; 
- border-width: 100%;
- line-height: 4ch;
- border-radius:20px;
- padding: 2em;
- margin:18px;
- padding-right: 5em;
- font-size: 20px;
- color: #888;
+.kreditler1{
+    margin-left: 0.5em;
+    margin-top: -3em; 
+    color:#3a3a3a;
+     font-size: 40px;
+}
+
+.kreditsifarisi{
  width: 100%;
+ margin-left: 1em;
+ border-width: 100vh;
+ background-color:#f1f4ee; 
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 2.4rem;
+ color:#888;
+ border-radius:24px;
+ padding:4rem; 
+
+ 
 }
 .kredittotal{
-
-
-    /* display: flex; */
-    margin-top:2em;
+   margin-top:9em; 
+   
 }
 
+.npdtotal{
+   width:89%;
+   position: absolute;
+   top:20em;
+   left:5em;
+   
+}
+
+
+   .nagdp{
+    margin-left: 2.6em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+    
+}
+
+.otuzmin{
+    margin-top:-0.5em;
+    margin-left: 5.3em;
+    color: #888;
+    line-height: 25px;
+  
+}
+.mudfaiz{
+    display: flex;
+    color: #888;
+
+    
+}
+.muddet1{
+ margin-left:5.7em;
+ color: #888;
+ 
+}
+
+
+.derecesi{
+    margin-left:1em;
+}
+.valyuta1{
+    margin-left:1em;
+}
+
+.AZNN{
+    display:flex;
+    margin-top:-2em;
+}
+
+.ayyyy{
+    margin-left:5.7em;
+    color:#000;
+    font-weight: 600;
+}
+
+.onikifaiz{
+   margin-left:1.7em; 
+   color:#000;
+   font-weight: 600;
+
+}
+
+.valyutaazn{
+    margin-left:4.6em;
+    color:#000;
+    font-weight: 600;
+}
+
+.sifariset1{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.sifariset2{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-10.9em;
+    line-height: 0px;
+     
+
+}
+.sifariset2:hover{
+background-color: #60A02A;
+}
+.sifariset21{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-10em;
+    line-height: 0px;
+     
+
+}
+.sifariset21:hover{
+background-color: #60A02A;
+}
+
+
+.dahaetrafli{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli:hover{
+    color: #80b554;
+ }
+
+.dahaetrafli1{
+    margin-top: 3.5em;
+    margin-left:-28em;
+    color: #888;
+}
+.dahaetrafli1:hover{
+    color: #80b554;
+ }
+
+ .sifariset22{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-11em;
+    line-height: 0px;
+     
+
+}
+.sifariset22:hover{
+background-color: #60A02A;
+}
+
+
+.dahaetrafli2{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli2:hover{
+    color: #80b554;
+ }
+.oxsvg{
+    margin-top:3.2em;
+    margin-left:-27em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+
+.oxsvg:hover{
+    background-color: #80b554;
+}
+.oxsvg1{
+    margin-top:3.2em;
+    margin-left:-29em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+.oxsvg1:hover{
+    background-color: #80b554;
+}
+
+.oxsvg1{
+    margin-top:3.2em;
+    margin-left:-24em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+.oxsvg1:hover{
+    background-color: #80b554;
+}
+
+.oxsvg2{
+    margin-top:3.2em;
+    margin-left:-26em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+.oxsvg2:hover{
+    background-color: #80b554;
+}
+
+.iconss{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics{
+    width:40px;
+   object-fit: contain;
+    margin-left:25em ;
+    margin-top: -14em; 
+    position: absolute;
+    z-index: -1;
+    
+}
+.sekilqepik{
+    margin-top:-80em ;
+    margin-bottom:-20em ;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    display: flex;
+    justify-content:left;
+    padding-bottom: 1em;
+   
+}
+ .iconss:hover{
+      transform: scale(1.1); 
+  
+
+    
+   } 
+
+
+.npd{
+   width:107%;
+   margin-top: 13em;
+   margin-left: 3em;
+   padding-bottom: 2em;
+   border-radius: 40px;
+   background-color:#f1f4ee;
+   
+  
+}
+.nagdpp{
+    margin-left: 2.6em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+}
+.baharr{
+    margin-top:-0.8em;
+    margin-left: 5.3em;
+    color: #888;
+    line-height: 25px;
+
+}
+.onikifaizzz{
+    margin-left:3.3em; 
+    color:#000;
+    font-weight: 600;
+
+
+}
+.derecesi11{
+    margin-left:4.5em;
+}
+.valyuta12{
+    margin-left:1.2em;
+}
+
+.valyutaaznn{
+    margin-left:2.4em;
+    color:#000;
+    font-weight: 600;
+}
+
+
+.sekilqepikk{
+    margin-top:-80em ;
+    margin-bottom:-20em ;
+    margin-right:-56em;
+    font-size: 1px;
+    object-fit: contain;
+    display: flex;
+    justify-content:left;
+    padding-bottom:2em ;
+}
+
+.iconss1:hover{
+    transform: scale(1.1); 
+   
+   
+  
+ }
+ .iconss1{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics1{
+    width:40px;
+   object-fit: contain;
+    margin-left:25em ;
+    margin-top: -10em; 
+    position: absolute;
+    z-index: -1;
+    
+}
+.nagdppp{
+    margin-left: 2.6em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+}
+
+.ayyyy1{
+    margin-left:5.8em;
+    color:#000;
+    font-weight: 600;
+}
+
+.derecesiiiiii{
+    margin-left:1.6em;
+}
+.onikifaizzz2{
+    margin-left:1.5em; 
+    color:#000;
+    font-weight: 600;
+
+
+}
+
+.valyutaaznn1{
+    margin-left:4em;
+    color:#000;
+    font-weight: 600;
+}
+
+.sekilqepikkk{
+    margin-top:-65em ;
+    margin-bottom: -30em;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    padding-bottom:12em;
+
+}
+.iconss2:hover{
+    transform: scale(1.1); 
+
+  
+ }
+ .iconss2{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics2{
+    width:40px;
+   object-fit: contain;
+    margin-left:23em ;
+    margin-top: -9em; 
+    position: absolute;
+    z-index: -1;
+}
+
+
+.nagdppp1{
+    margin-left: 2.7em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+}
+
+.ipoteka{
+    margin-top:-0.5em;
+    margin-left: 5.3em;
+    color: #888;
+    line-height: 25px;
+}
+.dahaetrafli3{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli3:hover{
+    color: #80b554;
+ }
+.oxsvg3{
+    margin-top:3.2em;
+    margin-left:-26em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+
+.oxsvg3:hover{
+    background-color: #80b554;
+}
+.iconss3:hover{
+    transform: scale(1.1); 
+
+  
+ }
+ .iconss3{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics3{
+    width:40px;
+   object-fit: contain;
+    margin-left:23em ;
+    margin-top: -12em; 
+    position: absolute;
+    z-index: -1;
+}
+
+.sifariset23{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-11em;
+    line-height: 0px;
+     
+
+}
+.sifariset23:hover{
+background-color: #60A02A;
+}
+.mudfaiz1{
+    display: flex;
+     color: #888;
+
+    
+}
+.muddet2{
+ margin-left:5.7em;
+ color: #888;
+ 
+}
+
+
+.derecesiiiiii1{
+    margin-left:1em;
+}
+.valyuta12{
+    margin-left:1em;
+}
+
+.AZNNN{
+    display:flex;
+    margin-top:-2em;
+}
+
+.ayyyy1{
+    margin-left:5.7em;
+    color:#000;
+    font-weight: 600;
+}
+
+.onikifaizzz3{
+   margin-left:1.5em; 
+   color:#000;
+   font-weight: 600;
+
+}
+
+.valyutaaznn2{
+    margin-left:4.6em;
+    color:#000;
+    font-weight: 600;
+}
+.sekilqepikkk4{
+    margin-top:-80em ;
+    margin-bottom: -20em;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    padding-bottom:8em;
+}
+
+.nagdppp12{
+    margin-left: 2.7em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+
+
+}
+.ipoteka1{
+    margin-top:-0.5em;
+    margin-left: 5.3em;
+    color: #888;
+    line-height: 25px;
+}
+
+.dahaetrafli4{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli4:hover{
+    color: #80b554;
+ }
+.oxsvg4{
+    margin-top:3.2em;
+    margin-left:-26em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+
+.oxsvg4:hover{
+    background-color: #80b554;
+}
+.iconss4:hover{
+    transform: scale(1.1); 
+
+  
+ }
+ .iconss4{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics4{
+    width:40px;
+   object-fit: contain;
+    margin-left:23em ;
+    margin-top: -12em; 
+    position: absolute;
+    z-index: -1;
+}
+
+.sifariset24{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-11em;
+    line-height: 0px;
+     
+
+}
+.sifariset24:hover{
+background-color: #60A02A;
+}
+.mudfaiz2{
+    display: flex;
+     color: #888;
+
+    
+}
+.muddet3{
+ margin-left:5.7em;
+ color: #888;
+ 
+}
+
+
+.derecesi1{
+    margin-left:1em;
+}
+.valyuta123{
+    margin-left:1em;
+}
+
+.AZNNN1{
+    display:flex;
+    margin-top:-2em;
+}
+
+.ayyyy2{
+    margin-left:5.7em;
+    color:#000;
+    font-weight: 600;
+}
+
+.onikifaizzz4{
+   margin-left:1.7em; 
+   color:#000;
+   font-weight: 600;
+
+}
+.sekilqepikkk5{
+    margin-top:-80em ;
+    margin-bottom: -20em;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    padding-bottom:3em;
+}
+
+.nagdppp13{
+    margin-left: 2.7em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+
+
+}
+.ipoteka2{
+    margin-top:-0.5em;
+    margin-left: 5.5em;
+    color: #888;
+    line-height: 25px;
+}
+
+.dahaetrafli5{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli5:hover{
+    color: #80b554;
+ }
+.oxsvg5{
+    margin-top:3.2em;
+    margin-left:-26em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+
+.oxsvg5:hover{
+    background-color: #80b554;
+}
+.iconss5:hover{
+    transform: scale(1.1); 
+
+  
+ }
+ .iconss5{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics5{
+    width:40px;
+   object-fit: contain;
+    margin-left:23em ;
+    margin-top: -12em; 
+    position: absolute;
+    z-index: -1;
+}
+
+.sifariset25{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-11em;
+    line-height: 0px;
+     
+
+}
+.sifariset25:hover{
+background-color: #60A02A;
+}
+.mudfaiz3{
+    display: flex;
+     color: #888;
+
+    
+}
+.muddet4{
+ margin-left:5.7em;
+ color: #888;
+ 
+}
+
+
+.derecesii2{
+    margin-left:1em;
+}
+.valyuta13{
+    margin-left:1em;
+}
+
+.AZNNN2{
+    display:flex;
+    margin-top:-2em;
+}
+
+.ayyyy3{
+    margin-left:5.7em;
+    color:#000;
+    font-weight: 600;
+}
+.valyutaaznn3{
+    margin-left:1.5em;
+    color:#000;
+    font-weight: 600;
+}
+
+.onikifaizzz5{
+   margin-left:1.7em; 
+   color:#000;
+   font-weight: 600;
+
+}
+.sekilqepikkk6{
+    margin-top:-80em ;
+    margin-bottom:-20em ;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    padding-bottom:2em;
+}
+
+.nagdppp14{
+    margin-left: 2.7em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+}
+
+.ipoteka3{
+    margin-top:-0.5em;
+    margin-left: 5.5em;
+    color: #888;
+    line-height: 25px;
+}
+.dahaetrafli6{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli6:hover{
+    color: #80b554;
+ }
+.oxsvg6{
+    margin-top:3.2em;
+    margin-left:-26em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+
+.oxsvg6:hover{
+    background-color: #80b554;
+}
+.iconss6:hover{
+    transform: scale(1.1); 
+
+  
+ }
+ .iconss6{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics6{
+    width:40px;
+   object-fit: contain;
+    margin-left:23em ;
+    margin-top: -12em; 
+    position: absolute;
+    z-index: -1;
+}
+
+.sifariset26{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-11em;
+    line-height: 0px;
+     
+
+}
+.sifariset26:hover{
+background-color: #60A02A;
+}
+.mudfaiz4{
+    display: flex;
+     color: #888;
+
+    
+}
+.muddet5{
+ margin-left:5.7em;
+ color: #888;
+ 
+}
+
+
+.derecesii3{
+    margin-left:1em;
+}
+.valyuta14{
+    margin-left:1em;
+}
+
+.AZNNN3{
+    display:flex;
+    margin-top:-2em;
+}
+
+.ayyyy4{
+    margin-left:5.7em;
+    color:#000;
+    font-weight: 600;
+}
+.valyutaaznn4{
+    margin-left:3.8em;
+    color:#000;
+    font-weight: 600;
+}
+
+.onikifaizzz6{
+   margin-left:1.8em; 
+   color:#000;
+   font-weight: 600;
+
+}
+.sekilqepikkk7{
+    margin-top:-80em ;
+    margin-bottom:-20em ;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    padding-bottom:3em;
+}
+
+
+.nagdppp15{
+    margin-left: 2.7em;
+    margin-top: -5em; 
+    padding-top: 2em;
+    color:#3a3a3a;
+    font-size: 35px;
+}
+
+.ipoteka4{
+    margin-top:-0.5em;
+    margin-left: 5.5em;
+    color: #888;
+    line-height: 25px;
+}
+.dahaetrafli7{
+    margin-top: 3.5em;
+    margin-left:-29em;
+    color: #888;
+}
+.dahaetrafli7:hover{
+    color: #80b554;
+ }
+.oxsvg7{
+    margin-top:3.2em;
+    margin-left:-26em;
+    width:18px;
+    height: 20px;
+    font-size:20px;
+    
+}
+
+.oxsvg7:hover{
+    background-color: #80b554;
+}
+.iconss7:hover{
+    transform: scale(1.1); 
+
+  
+ }
+ .iconss7{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 2em;
+   
+}
+
+
+.ics7{
+    width:40px;
+   object-fit: contain;
+    margin-left:23em ;
+    margin-top: -12em; 
+    position: absolute;
+    z-index: -1;
+}
+
+.sifariset27{
+    background-color:#80b554;
+    border-color: #80b554;
+    color:white;
+    height: 6vh;
+    font-weight: 600;
+    font-size:medium;
+    border-radius: 15px;
+    padding:27px;
+    margin-top: 3em;
+    margin-left:-11em;
+    line-height: 0px;
+     
+
+}
+.sifariset27:hover{
+background-color: #60A02A;
+}
+.mudfaiz5{
+    display: flex;
+     color: #888;
+
+    
+}
+.muddet6{
+ margin-left:5.7em;
+ color: #888;
+ 
+}
+
+
+.derecesii4{
+    margin-left:1em;
+}
+.valyuta15{
+    margin-left:1em;
+}
+
+.AZNNN4{
+    display:flex;
+    margin-top:-2em;
+}
+
+.ayyyy5{
+    margin-left:5.7em;
+    color:#000;
+    font-weight: 600;
+}
+.valyutaaznn5{
+    margin-left:3.4em;
+    color:#000;
+    font-weight: 600;
+}
+
+.onikifaizzz7{
+   margin-left:1.8em; 
+   color:#000;
+   font-weight: 600;
+
+}
+.sekilqepikkk8{
+    margin-top:-80em ;
+    margin-bottom:-20em ;
+    margin-right:-50em;
+    font-size: 2px;
+    object-fit: contain;
+    padding-bottom:3em;
+}
+
+
+.onkredit{
+    margin-left:3em;
+    margin-top:6em;
+    margin-bottom: 0.5em;
+    background-color: #f1f4ee;
+    width:100%;
+    padding: 3rem;
+    border-width: 100vh;
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+.onlinekredits{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-left: 1.1em;
+    padding-top: -2em;
+    padding-bottom: -2em;
+
+    font-family: Gilroy,sans-serif;
+}
+
+.kreditfirst{
+    
+   margin-left: 1.7em;
+   margin-top:-1.3em;
+   line-height: 1.4em;
+   color: #888;
+   
+}
+
+.onlinekredits1{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-left: 1.2em;
+    margin-top: -0.7em;
+    font-family: Gilroy,sans-serif;
+}
+
+.kreditsecond{
+    margin-left: 1.7em;
+    margin-top:-1.3em;
+    line-height: 1.4em;
+    color: #888;
+}
+
+.Llinks{
+    position: absolute;
+    top:5500px;
+    left:65px;
+    word-spacing: 0.2em;
+   
+    
+}
+.linnk{
+
+  margin-left:4em;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color:#f1f4ee ;
+  font-weight: 400;
+  color: #888;
+  background-color: #f1f4ee;
+  padding: 8px;
+  font-size: 1.3rem;
+}
+
+.Linnnk{
+    text-decoration: none;
+     border-radius: 6px;
+     color: #888;
+     background-color: #f1f4ee;
+     margin-left:0.8em;
+     padding: 10px;
+     font-size: 1.3rem;
+}
 
 
 /* Emanetler */
+.container2{
+    padding: 0 50px;
+   
+}
+
 
 .emanettotal{
-    margin-top:2em;
-    
+    margin-top:2.5em;
+    margin-left:5.5em;
+    color: #3a3a3a;
+  
+   
+}
+
+.emanet1{
+    color: #3a3a3a;
+    font-size: 40px;
 }
 .emanetler1{
     margin-left: 0.2em;
@@ -1685,39 +2895,54 @@ margin-left:4.5em;
 }
 
 .emanetsifaris{
- margin-left: 3em;
+ margin-left: 0.3em;
  background-color:#f1f4ee; 
  border-width: 100%;
  line-height: 4ch;
  border-radius:30px;
  padding:3em;
- padding-bottom: 0;
- margin-top:1em;
- margin:18px;
- padding-right: 5em;
+ padding-bottom:0;
+ padding-right: 2.9em;
  font-size: 20px;
  color: #888;
- width:75%;
+ width:80%;
 
+}
+.uni{
+    color: #000;
+    margin-left:-8px;
+    margin-top: -17px;
+    font-family: Gilroy,sans-serif;
+   font-weight: 700;
+}
+.universalemanet1{
+    margin-top: -6px;
+    margin-left: -12px;
+    line-height: 22px;
 }
 .mud{
     display: flex;
     justify-content:flex-start;
+    margin-top:-12px;
 }
 .mud1{
-    margin-top: 1em;
+    margin-top: -0.em;
 }
 .otuzaltiay{
-    margin-left: -2.7em;
-    margin-top: 3em; 
+    margin-left: -65px;
+    margin-top: 46px; 
+    color: #000;
+    font-size: 22px;
 }
 .mud2{
     margin-top: 1em;
     margin-left:4em;
 }
 .onelli{
-    margin-left: -4.5em;
-    margin-top: 3em;
+    margin-left: -103px;
+    margin-top: 46px;
+    color: #000;
+    font-size: 22px;
 }
 .valyutaa{
     display: flex;
@@ -1734,47 +2959,1315 @@ margin-left:4.5em;
 .aznusd{
     margin-left: -2.7em;
     margin-top: 1em; 
+    color: #000;
+    font-size: 22px;
 }
 
 .seyfsekil{
-margin-top:-12em;
-padding-top: -1em;
-margin-right:-2em;
-font-size:20px;
-margin-bottom:0.1em;
+margin-top:-12.7em;
+padding-bottom: 0.6em;
+margin-left:300px;
+font-size:15px;
+margin-bottom:-1px;
+transform: translateY(10px);
 }
-.seyfsekil:hover{
-    transform: scale(1.1);
+
+
+.icsss1{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 3em;
+    margin-top: -1.5em;
+    font-size: 10px;
+    position: absolute;
+   
+}
+.icsss1:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
 }
 .seyf1{
     display: flex;
     justify-content:flex-end;
     
 }
+
+.icsss{
+    width:38px;
+    object-fit: contain;
+     margin-top: -275px; 
+     margin-left:470px;
+     z-index:-1;
+     transform: translateY(12px);
+     position: absolute;
+}
+
+
+
+.emanetsifaris1{
+    margin-left: 0.2em;
+    background-color:#f1f4ee; 
+    border-width: 100%;
+    line-height: 4ch;
+    border-radius:30px;
+    padding:3.8em;
+    padding-bottom:0;
+    padding-right: 1em;
+    font-size: 20px;
+    color: #888;
+    width:40%;
+    margin: 80px;
+    margin-top:141px;
+   }
+   .uni1{
+       color: #000;
+       margin-left:-8px;
+       margin-top: -17px;
+       font-family: Gilroy,sans-serif;
+      font-weight: 700;
+   }
+   .universalemanet2{
+       margin-top: -6px;
+       margin-left: -12px;
+       line-height: 22px;
+   }
+   .mudd{
+       display: flex;
+       justify-content:flex-start;
+       margin-top:-12px;
+   }
+   .mud12{
+       margin-top: -0.em;
+   }
+   .ikiyuzonalati{
+       margin-left: -65px;
+       margin-top: 46px; 
+       color: #000;
+       font-size: 22px;
+   }
+   .mud23{
+       margin-top: 1em;
+       margin-left:4em;
+   }
+   .besfaiz{
+       margin-left: -103px;
+       margin-top: 46px;
+       color: #000;
+       font-size: 22px;
+   }
+   .valyutaa1{
+       display: flex;
+       justify-content: flex-start;
+       margin-left: -2em;
+   }
+   
+   .valy1{
+       margin-left:1.5em;
+       margin-top:-0.8em;
+   }
+   
+   
+   .aznusd1{
+       margin-left: -2.7em;
+       margin-top: 1em; 
+       color: #000;
+       font-size: 22px;
+   }
+   
+   .seyfsekil1{
+   margin-top:-190px;
+   padding-bottom: 0.6em;
+   margin-left:320px;
+   font-size:15px;
+   margin-bottom:0.1em;
+   transform: translateY(12px);
+   }
+   
+   
+   .icsss2{
+       display: flex;
+       justify-content:flex-end;
+       flex-direction: row-reverse;
+       margin-left: 3em;
+       margin-top: -1.5em;
+       font-size: 10px;
+       position: absolute;
+   }
+   .icsss2:hover{
+       transform: scale(1.1); 
+       transition: 0.5s;
+   }
+   .seyf2{
+       display: flex;
+       justify-content:flex-end;
+       
+   }
+   
+   .icsss122{
+       width:38px;
+       object-fit: contain;
+        margin-top: -275px; 
+        margin-left:470px;
+        z-index:-1;
+        transform: translateY(12px);
+        position: absolute;
+   }
+   
+   
+.emanettotal1{
+ display: flex;
+ justify-content: space-evenly;
+}
+ 
+.saxlancSekil1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+ 
+   
+}
+.saxlanc12{
+    margin-top: 58px;
+    margin-left: 120px;
+    background-color: #dff2e2;
+    border-radius: 32px;
+    padding:20px;
+    width: 87%;
+}
+.saxlanc1{
+    margin-left: 125px;
+    font-family: Gilroy,sans-serif;
+    font-weight: 700;
+}
+.saxlanc2{
+    margin-left: 125px;
+    font-weight: 500;
+}
+.saxlancseyf{
+     margin-left:294px; 
+     margin-top: -150px;
+    font-size: 0.5px;
+    object-fit: contain;
+    padding-bottom:1px;
+    position:absolute;
+    transform: translateY(9px);
+    
+}.saxlancseyf:hover{
+    transform: scale(1.1);  
+    transition: 0.5s;
+  }
+
+
+.linksaxlanc{
+    border: 1px solid black;
+    background-color: #151e50;
+    color: white;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    position: absolute;
+    left:1320px;
+    top:710px;
+  
+  }
+  .linksaxlanc:hover{
+    background-color: white;
+    color:black;
+    transition: .3s ease-in-out;
+  }
+
+  .sorgular{
+    width:39%;
+    height:50vh;
+    margin-top: 180px;
+    background-color:#f1f4ee;
+    border-radius: 20px;
+    padding-top:12px;
+    margin-left: 130px;
+    padding-right: 200px;
+
+
+  }
+  .sorgu1{
+    margin-left: 100px;
+    margin-top:35px;
+  }
+ 
+   .novu12{
+    margin-top: 40px;
+    margin-left:107px;
+    color:#888;
+   }
+
+  .inputs{  
+    display: flex;
+   left:140px;
+   top:1190px;
+    position:absolute;
+  }
+
+  .radio1{
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 17px;
+    font-family: Gilroy,sans-serif;
+    width:150px;
+    margin-left: 100px;
+  
+  }
+.radio12{
+     margin-left: 11px;
+     font-size: 11.2px;
+     font-weight: 500;
+}
+
+.radio2{
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 17px;
+    font-family: Gilroy,sans-serif;
+    width:150px;
+    margin-left: 40px;
+}
+.radio13{
+    margin-left: 9px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.radio3{
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 17px;
+    font-family: Gilroy,sans-serif;
+    width:150px;
+    margin-left: 50px;
+}
+.radio14{
+    margin-left: 9px; 
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.ad1{
+    display: flex;
+    margin-top: 80px;
+    margin-left:100px;
+}
+
+.adiniz{
+ color: #6c757d;
+ left: 260px;
+ top: 1250px;
+ position: absolute;
+}
+
+.u1{
+    content: '*';
+    display:flex;
+    color: #de3a42;
+    font-size:18px; 
+    position: absolute;
+    left: 312px;
+    top: 1250px;
+}
+.u2{
+    margin-top: 50px;
+    background-color:#fff;
+  
+   
+}
+
+.input1{
+    border: 1px solid gray;
+    width:150px;
+    padding:20px;
+    border-radius: 10px;
+    left:240px;
+    top:1300px;
+    position: absolute;
+  
+}
+.ad2{
+    display: flex;
+    justify-content:center;
+    margin-top:-111px;
+    margin-left:-451px;
+}
+
+.soyad{
+ color: #6c757d;
+ top:1250px;
+ left:480px;
+ position: absolute;
+}
+
+.u3{
+    content: '*';
+    display:flex;
+    color: #de3a42;
+    font-size:18px; 
+    top:1249px;
+    left:556px;
+    position: absolute;
+}
+.u4{
+    margin-top: 50px;
+    background-color:#fff;
+  
+   
+}
+
+.input2{
+    border: 1px solid gray;
+    width:150px;
+    padding: 20px;
+    border-radius: 10px;
+    left:467px;
+    top:1300px;
+    position: absolute;
+}
+.ad3{
+    display: flex;
+    justify-content:center;
+}
+
+.nomre{
+ color: #6c757d;
+ left:710px;
+ top: 1250px;
+ position: absolute;
+ 
+
+}
+
+.u6{
+    margin-top: 50px;
+    background-color:#fff;
+   
+}
+
+.data{
+     width: 225px;
+     display:flex;
+     margin-left: -3px;   
+}
+.data12{
+  border: 1px solid gray;
+  width:170px;
+  position: absolute;
+  top:1299px;
+  left: 700px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.form-control{
+  padding:13px;
+  border-style: hidden;
+  width:75.5px;
+  font-size: small;
+  
+} 
+  
+.azr{
+    margin-top: -130px;
+    margin-left: 240px;
+    color:red;
+    font-size: 15px;
+}
+
+.inputss1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+
+}
+
+/* .buttonchange{
+    background-color: #60A02A;
+    color: white;
+    border-color: #60A02A;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 700;
+     font-size: medium;
+     margin-top: 12px;
+     margin-left:240px;
+
+} */
+
+.submit{
+    background-color: #60A02A;
+    color: white;
+    border-color: #60A02A;
+    padding: 18px;
+    border-radius: 10px;
+    font-family: 700;
+     font-size: medium;
+     margin-top: -50px;
+     margin-left:-215px; 
+}
+
+.whiteuni{
+  color: black; 
+
+ 
+}
+.artir1{
+     color:black; 
+   
+}
+
+    
+.whiteuni2{
+    display:inline;
+  position: relative;
+  left:600px;
+  top:-180px;
+  font-family: Gilroy,sans-serif;
+ 
+
+
+}
+.whiteuni1{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-top: -310px;
+
+    padding-left: 20px;
+     
+}
+.artir1{
+    color: white;
+  margin-top: 45px;
+  margin-left: 9px;
+  line-height: 25px;
+  font-size: 17px;
+
+}
+.whiteuni{
+   color: white;
+  position: absolute;
+  top: -20px;
+}
+
+.Baner{
+    margin-top: -70px;
+}
+
+
 /* Kartlar */
 
+.container2{
+    padding: 0 50px;
+   
+}
 .karttotal{
     margin-top:3.5em;
 }
 
 .kart1{
-    margin-left: 0.2em;
+    margin-left: 0.4em;
+    color: #3a3a3a;
+    font-size: 40px;
 }
 
 .kartsifaris{
-    margin-left: 3em;
+    width: 107%;
+    margin-left:3em;
     background-color:#f1f4ee; 
-    border-width: 100%;
-    line-height: 4ch;
-    border-radius:20px;
-    padding: 2em;
+    border-width: 100vh;
+    border-radius:25px;
+    padding: 4rem;
     margin:18px;
-    padding-right:5em;
-    font-size: 20px;
     color: #888;
-    width: 100%;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-family: Gilroy,sans-serif;
+    font-weight: 400;
+  
+    
+}
+.nomre4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
 }
 
+
+
+/* .Nov{
+   display: flex;
+   justify-content:space-evenly;
+}
 .ferditotal{
     margin-top:1em;
+} */
+
+.hover1{
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+     background-color:black; 
+    color: white;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 0.5rem; 
+    width: 19.5%;
+    line-height: 0.5px;
+    box-sizing: border-box;
+    height: 15%;
+    position: absolute;
+    top:420px;
+    left:125px;
+ 
 }
+.hover1:hover{
+background-color: white;
+
+}
+
+.scaless{
+    width: 24px;
+    min-height: 2vh;
+    margin-top: 1em;
+    margin-left:0.3em;
+    font-size: 2rem;
+    margin-bottom: 1em;
+    background-color:white; 
+    border-radius: 50%;
+    }
+
+    .scaless:hover{
+     color: #000;
+    
+}
+
+.linK12{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left:0.1em;
+    margin-top: 0.5em;
+    color: white; 
+
+}
+
+.linK12:hover{
+    color: #000;
+}
+
+.linksUU{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linksU{
+position: absolute;
+top:550px;
+left:140px;
+background-color:#f1f4ee;
+border-radius: 29px;
+padding-top: 50px;
+padding-right:3px;
+width: 31%;
+height: 50vh;
+}
+
+.links1{
+    text-decoration: none;
+    margin-left:2.4em;
+    font-family: Gilroy,sans-serif;
+    color: #000;
+    font-size:24px;
+    
+}
+
+.links2{
+    text-decoration: none;
+    margin-left:2.4em;
+    margin-top:-3em;
+    font-family: Gilroy,sans-serif;
+    color: #000;
+    font-size:24px;
+}
+
+.links3{
+    text-decoration: none;
+    text-decoration: none;
+    margin-left:2.4em;
+    /* margin-top: -5em; */
+    font-family: Gilroy,sans-serif;
+    color:white;
+    font-size:24px;
+}
+
+.xerclemek{
+    margin-left:3.2em;
+    color: #888;
+}
+
+.Kesbek{
+    color: #888;
+    display:flex;
+    justify-content: space-around;
+    /* position: absolute;  */
+     margin-top: 1rem;
+    margin-right:2em; 
+}
+.cashbackk{
+ margin-left: 1.5em;
+}
+
+.qaliga{
+    margin-right:7em;
+}
+.qirxfaiz{
+   margin-top: 3.5em;
+   margin-left:0.3em;
+   color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.dordfaiz{
+    margin-top: 3.5em;
+    margin-left: 1.8em;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.qirxDord{
+    display:flex;
+    justify-content: space-around;
+    position: absolute; 
+    top: 6em;
+    left:3em;
+  
+   
+}
+.sekilIcon{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row-reverse;
+    margin-left: 3em;
+    margin-top: -1.5em;
+    font-size: 10px;
+   
+}
+.sekilIcon:hover{
+     transform: scale(1.1);  
+     transition: 0.5s;
+    
+}
+
+.iconqara{
+    width:38px;
+   object-fit: contain;
+    margin-top: -14em; 
+    margin-left:30em;
+    position: absolute; 
+    z-index:-1;
+    transform: translateY(12px);
+}
+
+.kartfoto{
+     margin-top:1em ; 
+     margin-bottom:25em;
+    margin-right:15em; 
+    font-size:20px;
+    object-fit: contain;
+    padding-bottom:8em;
+     position: absolute;
+    
+}
+
+.linksU1{
+position: absolute;
+top:2.6px;
+left:510px;
+background-color:#f1f4ee;
+border-radius: 29px;
+padding-top: 50px;
+padding-right:3px;
+width: 100%;
+height: 50vh;
+
+}
+    
+.xerclemek1{
+    margin-left:3.2em;
+    color: #888;     
+    }
+    
+    .Kesbek1{
+        color: #888;
+        display:flex;
+        justify-content: space-around;
+        /* position: absolute;  */
+         margin-top: 1rem;
+        margin-right:2em; 
+    }
+    .cashbackk1{
+     margin-left: 2.5em;
+    
+    }
+    
+    .qaliga1{
+        margin-right:4.7em;
+    }
+    .qirxfaiz1{
+       margin-top: 3.5em;
+       margin-left:0.5em;
+       color: #000;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .dordfaiz1{
+        margin-top: 3.5em;
+        margin-left: 3em;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .qirxDord1{
+        display:flex;
+        justify-content: space-around;
+        position: absolute; 
+        top: 6em;
+        left:3em;
+      
+       
+    }
+    .sekilIcon1{
+        display: flex;
+        justify-content:flex-end;
+        flex-direction: row-reverse;
+        margin-left: 3em;
+        margin-top: -1em;
+        font-size: 10px;
+       
+    }
+    .sekilIcon1:hover{
+         transform: scale(1.1);  
+         transition: 0.5s;
+          
+    }
+    
+    .iconqara1{
+        width:38px;
+       object-fit: contain;
+        margin-top: -14.5em; 
+        margin-left:30em;
+        position: absolute; 
+        z-index:-1;
+        transform: translateY(12px);
+    }
+    
+    .kartfoto1{
+         margin-top:0.8em ; 
+         margin-bottom:25em;
+        margin-right:16em; 
+        font-size:20px;
+        object-fit: contain;
+        padding-bottom:8em;
+        position: absolute;
+        
+    }
+    
+    .linksU2{
+        position: absolute;
+        top:7.5px;
+        left:1020px;
+        background-color:#000;
+        border-radius: 24px;
+        padding-top: 50px;
+        width: 100%;
+        height: 50vh;
+        }
+        .xerclemek2{
+            margin-left:3.2em;
+            color: #888;     
+            }
+            
+            .Kesbek2{
+                color: #888;
+                display:flex;
+                justify-content: space-around;
+                /* position: absolute;  */
+                 margin-top: 1rem;
+                margin-right:2em; 
+            }
+            .cashbackk2{
+             margin-left: 1em;
+             margin-top: 0.5em;
+            }
+            
+            .qaliga2{
+                margin-right:7em;
+                margin-top: 0.5em;
+            }
+            .qirxfaiz2{
+               margin-top: 4em;
+               margin-left:0.2em;
+               color: white;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .dordfaiz2{
+                margin-top: 4em;
+                margin-left: 2.6em;
+                color: white;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            .qirxDord2{
+                display:flex;
+                justify-content: space-around;
+                position: absolute; 
+                top: 6em;
+                left:3em;
+              
+               
+            }
+            .sekilIcon2{
+                display: flex;
+                justify-content:flex-end;
+                flex-direction: row-reverse;
+                margin-left: 3em;
+                margin-top: -4em;
+                font-size: 10px;
+               
+            }
+            .sekilIcon2:hover{
+                 transform: scale(1.1);  
+                 transition: 0.5s;
+                 
+            }
+            
+            .iconqara2{
+                width:38px;
+               object-fit: contain;
+                margin-top: -13em; 
+                margin-left:30em;
+                position: absolute; 
+                z-index:-1;
+                background-color: #60A02A;
+                border-radius: 50%;
+                color: #60A02A;
+                transform: translateY(12px);
+            }
+            
+            .kartfoto2{
+                 margin-top:1em ; 
+                 margin-bottom:20em;
+                margin-right:18em; 
+                font-size:20px;
+                object-fit: contain;
+                padding-bottom:8em;
+                 position: absolute;
+               
+            }
+            .umumitarifler{
+                display:flex;
+                justify-content: space-around;
+                position: absolute;
+                top:1200px;
+                background-color:#dff2e2 ;
+                 width:100%;
+                height:160px;
+                border-radius: 28px;
+                padding:18px;
+                left:130px;
+            }
+            .birlesme{
+                 margin-top: 3em;
+                 margin-left:-1em;
+
+            }
+            .tarifLimit{
+            font-family: Gilroy,sans-serif;
+             font-weight: 700;
+             margin-left:-3em;
+             margin-top: -0.2em;
+            }
+
+            .qazanıl{
+               margin-left: -4.2em;
+               font-weight: 500;
+               color: #000;
+
+            }
+            .sec1{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top:-0.2em;
+            }
+
+            .pic11{
+              margin-left:-80px;
+              top:1px;
+              padding-top:9px;
+              position:absolute;
+              transform: translateY(9px);
+
+            }
+          .pic11:hover{
+            transform: scale(1.1);  
+            transition: 0.5s;
+            
+           
+    
+                }
+
+
+            .linKss{
+               text-decoration: none;
+               color: white;
+               background-color:#151e50 ;
+               border-radius: 10px;
+               padding: 20px;
+               padding-right:4px;
+               font-weight: 600;
+               width: 115px;
+               position: absolute; 
+               top:70px;
+               left:1200px;
+           
+
+               
+            }
+
+            .linKss:hover{
+              background-color: white;
+              border: 1px solid black;
+              color:#000;
+              transition: 0.5s;
+            
+            }
+           
+            .cardstotal{
+                position: absolute;
+                top:1480px;
+                left:150px;
+                padding-top: 25px;
+                border-radius:30px;
+                background-color: #f1f4ee;
+                width: 100%;
+                height: 40vh;
+            }
+            .karts1{
+               
+               margin-left: 65px;
+               font-family: Gilroy,sans-serif;
+               font-weight: 700;   
+            }
+            .genis1{
+                margin-top:-17px;
+                margin-left: 65px;
+                line-height: 3vh;
+                font-weight: 400;
+                font-size: 19px;
+                word-spacing: 1.5px;
+                color:#6c757d;
+                text-align: justify;
+            }
+            .karts2{
+                margin-top: -16px;
+                margin-left: 65px;
+                font-family: Gilroy,sans-serif;
+                font-weight: 700;   
+             }
+
+             .genis2{
+                margin-top:-17px;
+                margin-left: 65px;
+                line-height: 3vh;
+                font-weight: 400;
+                font-size: 19px;
+                word-spacing: 1.5px;
+                color:#6c757d;
+                text-align: justify;
+            }
+
+            .widths{
+               position: absolute;
+               top:1930px;
+               
+            }
+
+            .width1{
+                margin-left:70px;
+                text-decoration: none;
+                border-radius: 6px;
+                color: #888;
+                background-color: #f1f4ee;
+                padding: 15px;
+                font-size: 1rem;
+            }
+
+            .width2{
+                 margin-left: 10px;
+                text-decoration: none;
+                border-radius: 6px;
+                color: #888;
+                background-color: #f1f4ee;
+                padding: 15px;
+                font-size: 1rem;
+            }
+
+            /* filial ve bankomatlar */
+
+           .filbank{
+
+            position: absolute;
+            top:270px;
+            left:140px;
+            
+           }
+ 
+
+           
+            .filial1{
+                position: absolute;
+                display: flex;
+                justify-content: space-evenly;
+             
+
+            }
+
+.filial11{
+
+   margin-top:380px;
+   margin-left:540px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding-left:50px;
+   
+    
+   
+}
+.bankomat1{
+    margin-top:380px;
+   margin-left:2px;
+    color: #fff;
+    border: 1px solid transparent;
+    
+}
+
+.butyeni{
+    padding:20px;
+    border-radius: 10px;
+    border: 1 px solid #60A02A;
+    width:120px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #60A02A;
+    color: white;
+    
+}
+
+.butbank{
+    padding:20px;
+    border-radius: 10px;
+    width:170px;
+    background-color: #f3f4f5; 
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 28px;
+}
+.xerite{
+    width:74%;
+    height:50vh;
+    position: absolute;
+    top: 600px;
+    left:140px;
+    border-radius: 17px;
+    object-fit: cover;
+}
+
+.axtaris1{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:640px;
+    left:180px;
+    background-color: white;
+    height: 25vh;
+    width:249px;
+    border-radius:18px;
+    overflow-y: hidden;
+
+}
+
+
+.find{
+    margin-right:100px;
+    color: #6c757d;
+
+}
+
+.lupaaaa{
+   width:17px;
+   object-fit: contain;
+   margin-top:-195px;
+   margin-right:5px;
+   position: absolute;
+   top:210px;
+   left:14px;
+   
+}
+
+.basofis1{
+ display:flex;
+ position: absolute;
+ top:680px;
+ left:200px;
+ margin-top:15px;
+  /* text-decoration:overline; */
+  border:1px solid #6c757d;
+  color:#6c757d;
+  border-bottom-style: hidden;
+  border-left-style:hidden ;
+  border-right-style: hidden;
+}
+
+
+.basofis{
+
+  color:#000;
+  font-size: 13px;
+  margin-left: 0.5px;
+}
+.cashin{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: #60A02A;
+    color:white;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-top: 11px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.cash{
+
+}
+
+.piramida{
+    background-color:#ebeced; ;
+    color: #6c757d;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 8px;
+   padding-top: 0.1px;
+   padding-bottom: 1px;
+    font-size: 13px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.piramida2{
+    position: absolute;
+    top:726px;
+    left:210px;
+    color: #6c757d;
+    font-size: 12px;
+}
+.cassh{
+    display: flex;
+    position: absolute;
+    top:780px;
+    left:200px;
+    border:1px solid #6c757d;
+    border-bottom-style: hidden;
+    border-left-style:hidden ;
+    border-right-style: hidden;
+}
+
+.atm1{
+    font-size: 13px;
+    margin-left: -2px;
+}
+.cassh1{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: #60A02A;
+    color:white;
+    font-size: 13px;
+    margin-left: 58px;
+    margin-top: 9px;
+    padding-top: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    
+   
+
+}
+
+.may{
+    margin-bottom: -50px;
+}
+.piramida3{
+    position: absolute;
+    top:20px;
+    left:9px;
+}
+
+.kuc1{
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.may1{
+    color: #6c757d;
+    font-size: 12px;
+}
+
+
+
+.axtaris2{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:640px;
+    left:180px;
+    background-color: white;
+    height: 25vh;
+    width:249px;
+    border-radius:18px;
+    overflow-y: hidden;
+
+}
+
+
+.find1{
+    margin-right:100px;
+    color: #6c757d;
+
+}
+
+.lupaaaa1{
+   width:17px;
+   object-fit: contain;
+   margin-top:-195px;
+   margin-right:5px;
+   position: absolute;
+   top:210px;
+   left:14px;
+   
+}
+

@@ -3,11 +3,11 @@ import { Link, Route, Routes } from "react-router-dom";
 import NagdPul from "./Nagdpul";
 import EMANETTT from "./EMANETTT";
 import Page404 from "../../Header/Page404";
-const suretlikecidler = () => {
+const SuretliKecidler = () => {
   console.log("Component is loaded");
   return (
     <div>
-      <p className="suretlikecidler">Sürətli keçidlər</p>
+      <p className="SuretliKecidler">Sürətli keçidlər</p>
       <div />
       <div className="partt">
         <Link className="his1" to="/">
@@ -65,4 +65,4 @@ const suretlikecidler = () => {
   );
 };
 
-export default suretlikecidler;
+export default SuretliKecidler;

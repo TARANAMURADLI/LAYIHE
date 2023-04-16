@@ -3,10 +3,10 @@ import React from 'react'
 const ValyutaKursu = () => {
     console.log("Component is loaded");
     return (
-    <div>
+    <div className='butt1'>
          <div className="butt">
         <div className="valyutabutton">
-          <h1 className="valyuta111">Valyuta Kursu</h1>
+          <h1 className="valyuta1111">Valyuta Kursu</h1>
           <p className="nagdss">Nagdsız</p>
           <button className="if">
             <p className="noqte">.</p>
@@ -62,8 +62,7 @@ const ValyutaKursu = () => {
           </div>
           <div className="sozbirlesmeleri">
             <p>Kredit müddəti</p>
-            <p>Faiz dərəcəsi</p>
-          </div>
+            <p>Faiz dərəcəsi</p></div>
           <div className="buttonlar">
             <button className="ay">48 Ay</button>
             <p className="dots">.</p>

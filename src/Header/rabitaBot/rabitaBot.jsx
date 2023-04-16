@@ -1,6 +1,6 @@
 import React from 'react'
 
-const rabitaBot = () => {
+const RabitaBot = () => {
   return (
     <div>
 <div className="total">
@@ -56,4 +56,4 @@ const rabitaBot = () => {
   )
 }
 
-export default rabitaBot
+export default RabitaBot

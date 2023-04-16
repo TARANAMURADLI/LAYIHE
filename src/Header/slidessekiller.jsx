@@ -6,7 +6,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 const SlidesSekiller = () => {
   console.log("Component is loaded");
   return (
-    <div>
+   
       <div className="slayd">
         <Splide className="splide">
           <SplideSlide>
@@ -22,6 +22,7 @@ const SlidesSekiller = () => {
                   </div>
                   <div className="Guzest">
                     <p>Güzəşt müddəti</p>
+                    <h3>100 gün </h3>
                   </div>
                   <div className="limit">
                     <p>Kart limiti</p>
@@ -54,7 +55,7 @@ const SlidesSekiller = () => {
                   </div>
                   <div className="Muddet">
                     <p>Müddət</p>
-                    <h3>48 aya qədər</h3>/ \
+                    <h3>48 aya qədər</h3>/ 
                   </div>
                   <img
                     className="photo1"
@@ -67,7 +68,7 @@ const SlidesSekiller = () => {
           </SplideSlide>
         </Splide>
       </div>
-    </div>
+  
   );
 };
 
